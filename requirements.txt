@@ -1,7 +1,9 @@
 # Does not supports Django 4.0.0
-django>=3.2.18,!=4.0.*,<4.3
+django>=4.2.15,<4.3
 channels~=3.0.4
 django-leaflet~=0.29.0
 Pillow~=9.5.0
 geopy~=2.3.0
 openwisp-utils @ https://github.com/openwisp/openwisp-utils/tarball/master
+sqlparse>=0.5.0 # not directly required, pinned by Snyk to avoid a vulnerability
+urllib3>=2.2.2 # not directly required, pinned by Snyk to avoid a vulnerability
